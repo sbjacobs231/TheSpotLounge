@@ -58,19 +58,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Drinks</a>
+                        <a class="page-scroll" href="#services" data-toggle="tooltip" data-placement="bottom" title="Scrolls to Drinks">Drinks</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Food</a>
+                        <a class="page-scroll" href="#portfolio" data-toggle="tooltip" data-placement="bottom" title="Scrolls to Food">Food</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Reviews</a>
+                        <a class="page-scroll" href="#about" data-toggle="tooltip" data-placement="bottom" title="Check out our Celebrity Endorsements">Reviews</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Careers</a>
+                        <a class="page-scroll" href="#team" data-toggle="tooltip" data-placement="bottom" title="Join Our Team!">Careers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact" data-toggle="tooltip" data-placement="bottom" title="Get in Contact with Us">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -134,7 +134,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/kimchifriedrice.jpg" class="img-responsive" alt="">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/hotwings.jpg" class="img-responsive" alt="">
@@ -156,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/friedrice.jpg" class="img-responsive" alt="">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/curlyfries.jpg" class="img-responsive" alt="">
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/potstickers.jpg" class="img-responsive" alt="">
@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="menu.html">
+                    <a href="menu.html" target="_blank">
                         <div class="portfolio-hover">
                         </div>
                         <img src="img/food/bimbim.jpg" class="img-responsive" alt="">
@@ -289,7 +289,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Join Our Team</h2>
+                    <h2 class="section-heading">
+                        <a href="careers.html" class="black" target="_blank">Join Our Team</a>
+                    </h2>
                     <h3 class="section-subheading text-muted">Career Options</h3>
                 </div>
             </div>
@@ -545,6 +547,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- Tooltip -->
+    <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </body>
 
